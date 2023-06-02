@@ -17,3 +17,8 @@ text    = last_update.message.text
 
 # send message
 bot.send_message(chat_id, text)
+
+
+# reply message
+message = last_update.message
+message.reply_text("I'm a bot, please talk to me!", bot)
